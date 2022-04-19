@@ -4,21 +4,26 @@
   <head>
     <meta charset="utf-8" />
     <title>Curso Web Dio > HTML5</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <img src="images/htmlimg.jpg" alt="ilustração do HTML" />
-      <h1>Gustavo Andrade</h1>
+      <h1 id="title">Gustavo Andrade</h1>
     </header>
     <section>
       <header>
-        <h2>Posts</h2>
+        <h2 class="subtitle">Posts</h2>
       </header>
-      <article>
+      <article class="post">
         <header>
-          <h3>Post #1</h3>
+          <h3 class="post_title">Post #1</h3>
+          <img
+            src="images/htmlimg.jpg"
+            alt="ilustração do Javascript"
+            class="post_img"
+          />
         </header>
-        <p>
+        <p class="post_content">
           Lorem Ipsum is simply dummy
           <a href="https://github.com/gugandrade98" target="blank"
             >xambra fio</a
@@ -38,7 +43,7 @@
       </article>
     </section>
     <footer>
-      <ul>
+      <ul class="contacts_list">
         <li>
           <a href="mailto:gugandrade98@hotmail.com" target="blank"
             >gugandrade98@hotmail.com</a
